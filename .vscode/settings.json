@@ -1,0 +1,7 @@
+{
+	"files.associations": {
+		"cstdlib": "c",
+		"minitalk.h": "c",
+		"stdio.h": "c"
+	}
+}
