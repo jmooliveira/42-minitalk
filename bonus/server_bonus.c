@@ -6,11 +6,11 @@
 /*   By: jemorais <jemorais@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/05 10:47:21 by jemorais          #+#    #+#             */
-/*   Updated: 2025/02/07 17:25:17 by jemorais         ###   ########.fr       */
+/*   Updated: 2025/03/06 14:49:52 by jemorais         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*SERVER*/
+/*server_bonus.c*/
 
 #include "minitalk_bonus.h"
 

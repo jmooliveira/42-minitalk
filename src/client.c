@@ -6,11 +6,11 @@
 /*   By: jemorais <jemorais@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/05 10:47:26 by jemorais          #+#    #+#             */
-/*   Updated: 2025/02/07 17:22:31 by jemorais         ###   ########.fr       */
+/*   Updated: 2025/03/06 15:20:43 by jemorais         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*CLIENT*/
+/*client.c*/
 
 #include "minitalk.h"
 
@@ -43,7 +43,6 @@ static void	send_char(int pid, char c)
 	while (i >= 0)
 	{
 		bit = ((c >> i) & 1);
-		printf("%c", bit);
 		send_bit(pid, bit);
 		i--;
 	}
