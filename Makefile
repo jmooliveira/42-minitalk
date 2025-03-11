@@ -6,7 +6,7 @@
 #    By: jemorais <jemorais@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/31 11:42:13 by jemorais          #+#    #+#              #
-#    Updated: 2025/02/10 14:44:23 by jemorais         ###   ########.fr        #
+#    Updated: 2025/03/07 15:29:20 by jemorais         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -73,6 +73,7 @@ clean:
 
 fclean: clean
 		$(RM) $(NAME_SERVER) $(NAME_CLIENT) $(NAME_SERVER_B) $(NAME_CLIENT_B)
+		make -C $(LIBFT_DIR) fclean
 
 re: fclean all
 

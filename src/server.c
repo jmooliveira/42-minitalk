@@ -6,7 +6,7 @@
 /*   By: jemorais <jemorais@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/05 10:47:21 by jemorais          #+#    #+#             */
-/*   Updated: 2025/03/06 17:28:12 by jemorais         ###   ########.fr       */
+/*   Updated: 2025/03/07 15:22:34 by jemorais         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	ft_confirm(siginfo_t *pid)
 static void	print_signal_handler(int signum, siginfo_t *info, void *context)
 {
 	static char	c = 0;
-	static char	*str = NULL;
+	static char	*str;
 	static int	count_bit = 0;
 
 	(void)context;
